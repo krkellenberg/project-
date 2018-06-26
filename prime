@@ -1,0 +1,9 @@
+x = input()
+
+def prime(x):
+    if x % 2 or x == 2:
+        print("Prime")
+    else:
+        print("Composite")
+    
+print prime(x)
